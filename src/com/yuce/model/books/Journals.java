@@ -9,7 +9,7 @@ public class Journals extends Book {
 
     public Journals(Long bookId, Author author, String name, double price, String status, String edition, Date dateOfPurchase, String journalType) {
         super(bookId, author, name, price, status, edition, dateOfPurchase);
-        this.journalType = journalType;
+        this.journalType = journalType; // sda
     }
 
     public String getJournalType() {

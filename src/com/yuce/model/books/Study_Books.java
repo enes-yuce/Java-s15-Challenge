@@ -9,7 +9,7 @@ public class Study_Books extends Book {
 
     public Study_Books(Long bookId, Author author, String name, double price, String status, String edition, Date dateOfPurchase, String subject) {
         super(bookId, author, name, price, status, edition, dateOfPurchase);
-        this.subject = subject;
+        this.subject = subject; //asda
     }
 
     public String getSubject() {

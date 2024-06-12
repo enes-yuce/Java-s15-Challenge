@@ -2,14 +2,14 @@ package com.yuce.model.books;
 
 import com.yuce.model.person.Author;
 
-import java.util.Date; //fdfdfsdfdfdf
+import java.util.Date;
 
 public class Magazines extends Book {
-    private String magazineType;
+    private String magazineType; //as
 
     public Magazines(Long bookId, Author author, String name, double price, String status, String edition, Date dateOfPurchase, String magazineType) {
         super(bookId, author, name, price, status, edition, dateOfPurchase);
-        this.magazineType = magazineType;
+        this.magazineType = magazineType; // sad
     }
 
     public String getMagazineType() {

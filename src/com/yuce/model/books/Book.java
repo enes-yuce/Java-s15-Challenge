@@ -21,7 +21,7 @@ public class Book {
         this.price = price;
         this.status = status;
         this.edition = edition;
-        this.dateOfPurchase = dateOfPurchase; // sadsadsa
+        this.dateOfPurchase = dateOfPurchase; // sa
     }
 
     // Getter for bookId
